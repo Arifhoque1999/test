@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="left">
+        <div id="logo">
+          <img src="./Images/logo-img.png" alt="logo" />
+          <div id="title">
+            <span>Ninja Studio</span>
+          </div>
+        </div>
+        <div id="favourite">
+          <h1><i class="fa-regular fa-heart"></i><span>Favourite</span></h1>
+        </div>
+      </div>
+      <div class="right">
+        <div id="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="search" />
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+        <div>
+          <i class="fa-sharp fa-regular fa-bell"></i>
+        </div>
+        <div id="profile-img">
+          <img src="./Images/profile-img2.jpg" alt="pro" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- <section id="main-section">
+      <main id="main">
+        <div id="left-section">
+          <div id="header">
+            <div id="header-img">
+              <img src="./Images/header img.jpg" alt="" />
+            </div>
+            <div id="header-description">
+              <div id="cold-play">
+                <h1>Cold Play</h1>
+                <h5>851 Followers</h5>
+              </div>
+              <div id="cold-play-description">
+                <h5>British Band</h5>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
+                  voluptates blanditiis excepturi, praesentium cum quia sit
+                  sequi ipsam eveniet, error nam cumque, dolorem ut! Consequatur
+                  cum mollitia quo deserunt alias consequuntur recusandae?
+                </p>
+              </div>
+              <div id="play-btn">
+                <button>Play</button>
+                <h5>Follow</h5>
+              </div>
+              <p>247 Tracks|128 Albums</p>
+            </div>
+          </div>
+          <div id="playlist">
+            <ul>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <p>4:00</p>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="artist">
+            <h1>Artists</h1>
+            <div id="artist-name">
+              <div class="artist-info">
+                <img src="./Images/selena.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/ariana.jpg" alt="" />
+                <h1>Ariana Grande</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/charlie.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/ed sheeran.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/hrx.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/justin.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/katy.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+              <div class="artist-info">
+                <img src="./Images/taylor.jpg" alt="" />
+                <h1>Selena Gomez</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside id="right-section">
+          <div id="aside-top">
+            <div class="similar-artist">
+              <h1>Similar Artist</h1>
+              <span>View</span>
+            </div>
+            <div>
+              <ul id="similar-artist-list">
+                <li>
+                  <img src="./Images/selena.jpg" alt="" />
+                  <div>
+                    <h5>Imagine Dragons</h5>
+                    <p>Pop Band</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:40</p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./Images/selena.jpg" alt="" />
+                  <div>
+                    <h5>Imagine Dragons</h5>
+                    <p>Pop Band</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:40</p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./Images/selena.jpg" alt="" />
+                  <div>
+                    <h5>Imagine Dragons</h5>
+                    <p>Pop Band</p>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>4:40</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="aside-bottom">
+            <div class="similar-artist">
+              <h1>Recently Played</h1>
+              <span>View</span>
+            </div>
+            <ul>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+              <li>
+                <div class="music-img">
+                  <img src="./Images/wdta-img.jpg" alt="" />
+                </div>
+                <div class="playlist-icon">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+    </section>
+    <footer id="footer">
+      <div id="footer-left">
+        <img src="./Images/ariana.jpg" alt="" />
+        <div id="footer-left-text">
+          <h5>We don't talk</h5>
+          <p>Charlie Puth</p>
+        </div>
+        <div id="footer-icon">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-ban"></i>
+        </div>
+      </div>
+      <div id="middle-footer">
+        <div id="playlist-icon">
+          <i class="fa-solid fa-shuffle"></i>
+          <i class="fa-solid fa-backward-step"></i>
+          <i class="fa-regular fa-circle-pause" onclick="arif()"></i>
+          <i class="fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+        <div id="play-bar">
+          <span>02:33</span>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            id="myRange"
+          />
+          <span>05:31</span>
+        </div>
+      </div>
+      <div id="footer-right">
+        <img
+          src="https://cdn-user-icons.flaticon.com/98839/98839977/1680949425688.svg?token=exp=1680950370~hmac=48feae88a8d5737e2008f506ba6dd445"
+          alt=""
+        />
+        <img
+          src="https://cdn-user-icons.flaticon.com/98839/98839977/1680949585416.svg?token=exp=1680950485~hmac=f52a8ce10dc9f977fac854d8cf43f64e"
+          alt=""
+        />
+        <img
+          src="https://cdn-user-icons.flaticon.com/98839/98839977/1680949728905.svg?token=exp=1680950629~hmac=e7b362cbd8ac5055e93555d421f5f035"
+          alt=""
+        />
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="0"
+          class="slider"
+          id="sound"
+        />
+        <img
+          src="https://cdn-user-icons.flaticon.com/98839/98839977/1680949889301.svg?token=exp=1680950818~hmac=f3489d5b847dc6687374f30af4f76cae"
+          alt=""
+        />
+      </div>
+    </footer> -->
+
+    <script src="index.js"></script>
+  </body>
+</html>

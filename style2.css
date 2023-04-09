@@ -1,0 +1,23 @@
+@media only screen and (max-width: 866px) {
+  span {
+    display: none;
+    background-color: aqua;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .fa-bell {
+    font-size: 25px;
+    padding: 10px;
+  }
+  #profile-img img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #profile-img {
+
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+}
