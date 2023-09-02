@@ -111,6 +111,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  #header-img img{
+    height: 40vh;
+  }
   #footer {
     flex-wrap: wrap;
   }
