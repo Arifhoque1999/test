@@ -105,12 +105,14 @@ input {
 
 #main-section {
   margin-top: 100px;
+  
 }
 
 #main {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: auto;
+  /* flex-wrap: wrap; */
 }
 
 #left-section {
@@ -142,6 +144,7 @@ input {
   display: flex;
   justify-content: space-between;
   background-color: #483285;
+  flex-wrap: wrap;
 }
 
 #header-img {
@@ -278,20 +281,20 @@ li:hover {
   justify-content: space-between;
   color: white;
 }
-
+/* footer */
 #footer {
-  height: 75px;
+  height: 78px;
   width: 100%;
   background-color: #282828;
   position: fixed;
-  top: 91.5vh;
+  top: 90%;
   display: flex;
   justify-content: space-around;
-  padding-top: 7px;
+  padding: 8px;
+  margin-left: -10px;
 }
 
-#footer :nth-child(n + 1) {
-}
+
 
 #footer-left {
   width: 30%;
@@ -318,6 +321,7 @@ li:hover {
 }
 
 #middle-footer {
+  margin-top: 10px;
   width: 30%;
   height: 50px;
 }
@@ -340,7 +344,7 @@ li:hover {
 
 #play-bar input {
   color: white;
-  width: 75%;
+  width: 70%;
 }
 
 #myRange {
