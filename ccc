@@ -1,0 +1,68 @@
+::ng-deep mat-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+::ng-deep mat-sidenav-container{
+  background-color: white !important;
+}
+.custom-background1 {
+  background-color: #860463;
+  width: 180px !important;
+  margin: 2px;
+  padding: 0px;
+  height: 30px !important;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.custom-background1 span{
+  color: white;
+  font-size: 11px;
+}
+
+.custom-background:hover {
+  background-color: #860463;
+  width: 180px !important;
+  margin: 2px;
+  padding: 0px;
+  height: 30px !important;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.custom-background span:hover{
+  color: white;
+}
+span{
+  margin-left: 10px;
+  font-size: 11px;
+  color: #6b6967;
+  
+}
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar-left {
+  width: 20%;
+}
+#navbar-right {
+  width: 80%;
+  height: 50px;
+}
+#web-logo {
+  height: 50px;
+  width: 50px;
+}
+@media only screen and (max-width: 414px) {
+  #navbar-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    margin-left: 30px;
+  }
+}
